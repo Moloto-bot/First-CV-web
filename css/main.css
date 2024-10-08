@@ -1,0 +1,162 @@
+body{
+    background-color: #1e1e1e;
+
+}
+a{
+    cursor: pointer;
+    
+}
+i{
+    cursor: pointer;
+}
+
+
+.header-main{
+    position: fixed;
+    top: 0px;
+   width: 100%;
+   height: 60px;
+   background-color: #182947;
+   display: flex;
+   justify-content: space-between;
+   z-index: 1000;
+
+}
+.header-main-logo{
+    width: fit-content;
+   height: 60px; 
+   background-color: #182947;
+   display: flex;
+  
+
+}
+.header-main-logo img{
+    border-style: outset;
+    border-color: #0c1627;
+    border-width: 4px;
+    height: 60px;
+    border-radius: 17px;
+    background-size: cover;
+
+    align-self: center;
+    
+}
+.header-main-nav{
+    width: fit-content;
+
+    height: 60px;
+   
+    background-color: #182947;
+    font-weight: 700;
+    font-style: inherit;
+}
+
+.header-main-nav ul {
+    margin-left: 20px;
+
+
+}
+.header-main-nav ul li{
+    display: inline;
+    float: left;
+     margin: 10px;
+     
+
+}
+.header-main-nav ul li a{
+
+line-height: 50px;
+color: whitesmoke;
+font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+
+}
+
+.header-main-sm{
+    border-style: inset;
+    border-width: 4px;
+    border-color: #182947;
+    border-radius: 16px;
+
+    width: 7%;
+    height: 60px;
+  
+    background-color: #043f3a;
+    align-content: center;
+    margin-right: 7px;
+
+    
+ 
+}
+
+.fa-facebook{
+
+    font-size: 20px;
+    margin: 10px;  
+}
+.fa-envelope{
+
+    font-size: 20px ;
+
+    margin-bottom: 10px;
+}
+
+
+.header-main-sm-fb{
+    width: 80px;
+    height: 80px;
+   
+    
+   
+}
+.header-main-nav ul li a:hover{
+    color: rgb(6, 238, 255);
+    
+    }
+    
+.fa-facebook:hover{
+
+    color: rgb(6, 238, 255);
+    
+   
+}
+.fa-envelope:hover{
+    color: rgb(6, 238, 255);  
+}
+
+h1{
+   font-size: 26px;
+   line-height: 31px;
+   color:#00ccff;
+   font-family: "Itim", cursive;
+   font-weight: 600;
+   text-transform: uppercase;
+
+
+}
+p{
+    font-size: 13px;
+    line-height: 16px;
+    color:#00ffc8;
+    
+    font-family: "Itim", cursive;
+    
+ 
+ }
+ @media (max-width:600px) {
+    
+.header-main{   
+   width: 100%;
+ }
+ .header-main-sm{
+    width: 22%;
+ }
+
+}
+ @media only screen and(min-width:768px) {
+
+
+
+ }

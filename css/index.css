@@ -1,0 +1,67 @@
+main{
+width: 100%;
+height: calc(100vh);
+background-color: #1971ff;
+margin-top: 60px;
+background-image: url(../images/technology-hacker-759969.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.main-intro h1{
+    font-size: 45px;
+    line-height: 45px;
+
+
+}
+main p{
+    
+    font-size: 15px;
+    line-height: 18px;
+    
+}
+.quotes{
+    position: relative;
+    left: 0.5vh;
+   border-left: 3px solid #3d8118 ;
+   padding-left: 8px;
+   margin: 10px 0;
+
+
+}
+.main-intro{
+    position: relative;
+    right: 7vh;
+}
+.main-intro p{
+    color: #fff;
+}
+@media (max-width:600px) {
+    .quotes{
+        display: none;
+    }
+    .main-intro h1{
+        font-weight: 50;
+        padding-bottom: 8vh;
+        text-align: center;
+        margin-left: 100px;
+    
+    }
+    main p{
+        padding-bottom: 8vh;
+        text-align: center;
+        margin-left: 100px;
+    }
+  
+   
+    
+    }
+     @media only screen and(min-width:768px) {
+    
+    
+    
+     }
